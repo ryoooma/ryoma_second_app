@@ -1,7 +1,22 @@
-html {
-  min-height: 100%;
-  background-image: url(../../img/black.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* トップ  */
+.page-body {
+  background-image: url("assets/img/top.jpg")  
 }
+
+/* 単純なリンクページ */
+.only-link-body {
+  position: relative;
+  background-color: #000000; 
+}
+
+.only-link {
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
